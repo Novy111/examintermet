@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<style>
+div.error{
+background-color: red;
+color: white;
+
+}
+
+</style>
+</head>
+<body style="text-align: center;">
+
+
+<form action="" method="post" enctype="multipart/form-data">
+
+<div class="error"></div>
+
+
+name:
+<input type="text" name="name" >
+<br><br>
+
+email:
+<input type="email" name="email" >
+<br><br>
+
+pass:
+<input type="password" name="" >
+<br><br>
+
+photo:
+<input type="file" name="" >
+<br><br>
+
+<input type="submit" name="insert" >
+
+<button><a href="logout,php">logout</a></button>
+
+
+<table height: 30%;  width: 50%; border="2px black"></table>
+
+<tr> <th>name</th> <th>email</th> <th>pass</th> <th>img</th> <th>delete</th> </tr>
+
+<tr> <td>'.row[1].'</td> <td>'.row[2].'</td> <td>'.row[3].'</td> <td><img height="40px" width="75px" src="'.row[4].'" ></td> </tr>
+
+<td><button><a href="del.php?id='.$row[1].'">delete</a></button></td>
+
+
+</form>
+
+<td></td>
+
+<button><a href="del.php?id=$assoc['id']">delete</a></button>
+
+</body>
+</html>
