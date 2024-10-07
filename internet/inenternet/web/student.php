@@ -45,7 +45,7 @@
         </tbody>
     </table>
 </div>
-<?php $nawaf = new nawaf();
+<?php $nawaf = new student();
 
 $nawaf->azoz();
 

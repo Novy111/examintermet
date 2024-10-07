@@ -93,7 +93,7 @@ class Student
 }
 
 
-class nawaf extends  Student{
+class th extends  Student{
 
 
     function azoz() {
