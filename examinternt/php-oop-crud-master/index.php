@@ -5,7 +5,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 1;
 // set number of records per page
 $records_per_page = 5;
  
-// calculate for the query LIMIT clause
+// calculate for the query LIMIT clausee
 $from_record_num = ($records_per_page * $page) - $records_per_page;
 
 // include database and object files

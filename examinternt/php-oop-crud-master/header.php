@@ -13,7 +13,7 @@
  
     <!-- Latest compiled and minified Bootstrap CSS -->
   
-    <!-- our custom CSs -->
+    <!-- our custom CSS -->
     <link rel="stylesheet" href="custom.css" />
   
 </head>

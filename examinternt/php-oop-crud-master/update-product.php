@@ -67,6 +67,11 @@ if($_POST){
             <td>Price</td>
             <td><input type='text' name='price' value='<?php echo $product->price; ?>' class='form-control' /></td>
         </tr>
+
+        <tr>
+            <td>brand</td>
+            <td><input type='text' name='brand' class='form-control' value='<?php echo $product->brand; ?>' class='form-control' /></td>
+        </tr>
  
         <tr>
             <td>Description</td>

@@ -85,7 +85,7 @@ class Product{
     function readOne(){
  
         $query = "SELECT
-                    name, price, description, category_id
+                    name,brand, price, description, category_id
                 FROM
                     " . $this->table_name . "
                 WHERE
@@ -100,6 +100,7 @@ class Product{
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
      
         $this->name = $row['name'];
+        $this->brand = $row['brand'];
         $this->price = $row['price'];
         $this->description = $row['description'];
         $this->category_id = $row['category_id'];
@@ -111,6 +112,7 @@ class Product{
                     " . $this->table_name . "
                 SET
                     name = :name,
+                    brand = :brand,
                     price = :price,
                     description = :description,
                     category_id  = :category_id
@@ -121,6 +123,7 @@ class Product{
      
         // posted values
         $this->name=htmlspecialchars(strip_tags($this->name));
+        $this->brand=htmlspecialchars(strip_tags($this->brand));
         $this->price=htmlspecialchars(strip_tags($this->price));
         $this->description=htmlspecialchars(strip_tags($this->description));
         $this->category_id=htmlspecialchars(strip_tags($this->category_id));
@@ -128,6 +131,7 @@ class Product{
      
         // bind parameters
         $stmt->bindParam(':name', $this->name);
+        $stmt->bindParam(':brand', $this->brand);
         $stmt->bindParam(':price', $this->price);
         $stmt->bindParam(':description', $this->description);
         $stmt->bindParam(':category_id', $this->category_id);

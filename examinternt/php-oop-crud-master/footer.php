@@ -1,7 +1,7 @@
 </div>
     <!-- /container -->
  
-<!-- jQuery (necessary for Bootstrap's JavaScript pluginss) -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  
 

@@ -1,7 +1,7 @@
 <?php
 class Category{
  
-    // database connection and table name
+    // database connection and table Name
     private $conn;
     private $table_name = "categories";
  

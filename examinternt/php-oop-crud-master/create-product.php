@@ -2,7 +2,7 @@
 
 
 <?php
-// include database and object filess
+// include database and object files
 include_once 'config/database.php';
 include_once 'objects/product.php';
 include_once 'objects/category.php';
