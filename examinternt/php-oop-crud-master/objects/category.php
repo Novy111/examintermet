@@ -13,7 +13,7 @@ class Category{
         $this->conn = $db;
     }
  
-    // used by select drop-down list
+    // used by select drop-down lists
     function read(){
         //select all data
         $query = "SELECT

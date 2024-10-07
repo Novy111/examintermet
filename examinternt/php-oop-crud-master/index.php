@@ -39,7 +39,7 @@ if($num>0){
     echo "<table class='table table-hover table-responsive table-bordered'>";
         echo "<tr>";
             echo "<th>Product</th>";
-            echo "<th>brand</th>";
+            echo "<th>Brand</th>";
             echo "<th>Price</th>";
             echo "<th>Description</th>";
             echo "<th>Category</th>";

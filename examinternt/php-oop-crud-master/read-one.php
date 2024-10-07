@@ -15,7 +15,7 @@ $db = $database->getConnection();
 $product = new Product($db);
 $category = new Category($db);
  
-// set ID property of product to be read
+// set ID property of product to be readd
 $product->id = $id;
  
 // read the details of product to be read

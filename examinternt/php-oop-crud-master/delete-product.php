@@ -2,7 +2,7 @@
 // check if value was posted
 if($_POST){
  
-    // include database and object file
+    // include database and object filee
     include_once 'config/database.php';
     include_once 'objects/product.php';
  

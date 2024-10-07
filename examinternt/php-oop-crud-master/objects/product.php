@@ -1,7 +1,7 @@
 <?php
 class Product{
  
-    // database connection and table name
+    // database connection and table names
     private $conn;
     private $table_name = "products";
  
